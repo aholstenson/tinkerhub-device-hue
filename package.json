@@ -1,18 +1,30 @@
 {
   "name": "tinkerhub-device-hue",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "license": "MIT",
+  "repository": "tinkerhub/tinkerhub-device-hue",
+  "main": "lib/index.js",
+  "keywords": [
+    "tinkerhub",
+    "tinkerhub-device",
+    "hue",
+    "lighting"
+  ],
+  "scripts": {
+    "prepublish": "node_modules/.bin/eslint lib",
+    "test": "node_modules/.bin/eslint lib"
+  },
   "peerDependencies": {
-    "tinkerhub": "^0.0.2"
+    "tinkerhub": "^1.0.0"
   },
   "dependencies": {
     "clone": "^1.0.2",
     "deep-equal": "^1.0.0",
-    "node-hue-api": "^1.0.5",
+    "node-hue-api": "^2.2.0",
     "q": "^1.4.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "tinkerhub-build": "0.0.1"
+    "eslint": "^3.12.2",
+    "eslint-plugin-node": "^3.0.5"
   }
 }
