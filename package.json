@@ -21,7 +21,8 @@
     "clone": "^1.0.2",
     "deep-equal": "^1.0.0",
     "node-hue-api": "^2.2.0",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "tinkerhub-ssdp": "^0.1.0"
   },
   "devDependencies": {
     "eslint": "^3.12.2",
