@@ -2,13 +2,12 @@
   "plugins": [ "node" ],
   "extends": [ "eslint:recommended", "plugin:node/recommended" ],
   "env": {},
-  "ecmaFeatures": {},
   "globals": {},
   "rules": {
     "node/no-unsupported-features": [
       "error",
       {
-        "version": 4
+        "version": 6
       }
     ],
     "no-irregular-whitespace": 2,
