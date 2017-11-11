@@ -14,18 +14,15 @@
     "prepublish": "node_modules/.bin/eslint lib",
     "test": "node_modules/.bin/eslint lib"
   },
-  "peerDependencies": {
-    "tinkerhub": "^1.0.0"
-  },
   "dependencies": {
-    "clone": "^1.0.2",
-    "deep-equal": "^1.0.0",
-    "node-hue-api": "^2.2.0",
-    "q": "^1.4.1",
-    "tinkerhub-ssdp": "^0.1.0"
+    "appliances": "^0.1.0",
+    "axios": "^0.17.0",
+    "throat": "^4.1.0",
+    "tinkerhub": "^1.0.0",
+    "tinkerhub-ssdp": "^0.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.12.2",
-    "eslint-plugin-node": "^3.0.5"
+    "eslint": "^4.11.0",
+    "eslint-plugin-node": "^5.2.1"
   }
 }
