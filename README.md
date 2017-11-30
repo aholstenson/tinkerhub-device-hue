@@ -1,25 +1,30 @@
-# Philips Hue Lights
+# tinkerhub-device-hue
 
 Support for Philips Hue lights in [Tinkerhub](https://github.com/tinkerhub/tinkerhub).
-This will find any Hue bridges on your local network and make their lights
-available through Tinkerhub.
+This module supports both the Philips Hue bridge and the [deConz REST plugin](https://github.com/dresden-elektronik/deconz-rest-plugin).
 
-To install this into your local Tinkerhub install use:
+* **Latest version**: 0.3.0
+* **Status**: Mostly stable, some sensors are not supported.
 
-`npm install --save tinkerhub-device-hue`
+## Installation and use
 
-If you use `th.autoload()` you only need to restart your installation and
-bridges will be made available.
+When running [tinkerhubd](https://github.com/tinkerhub/tinkerhub-daemon) install
+via:
 
-Lights will be made available after you have linked the bridge. You can do
-this via the CLI:
+```
+$ tinkerhubd install device-hue
+```
+
+Bridges found will have the type `hue:bridge`. You will need to link with the
+bridge:
 
 ```
 $ tinkerhub
-> type:hue-bridge link
- PROGRESS hue:idofbridgehere
-  Press link button on Hue bridge
- SUCCESS hue.idofbridgehere
-  status:  200
-  message: Linked with bridge
+> type:bridge:hue link
 ```
+
+After running press the link button on the bridge or for deConz open the
+bridge via the web interface.
+
+After this lights and sensors should be made available with various types and
+capabilities.
