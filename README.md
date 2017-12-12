@@ -3,8 +3,8 @@
 Support for Philips Hue lights in [Tinkerhub](https://github.com/tinkerhub/tinkerhub).
 This module supports both the Philips Hue bridge and the [deConz REST plugin](https://github.com/dresden-elektronik/deconz-rest-plugin).
 
-* **Latest version**: 0.4.0
-* **Status**: Mostly stable
+* **Latest version**: 0.4.1
+* **Status**: Stable
 
 ## Installation and use
 

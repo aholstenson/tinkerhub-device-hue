@@ -1,6 +1,6 @@
 {
   "name": "tinkerhub-device-hue",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "license": "MIT",
   "description": "Support for Philips Hue lights in a Tinkerhub network",
   "repository": "tinkerhub/tinkerhub-device-hue",
