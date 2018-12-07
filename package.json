@@ -17,7 +17,7 @@
     "abstract-things": "^0.9.0",
     "axios": "^0.17.1",
     "throat": "^4.1.0",
-    "tinkerhub": "^2.6.0",
+    "tinkerhub": "^2.7.0",
     "tinkerhub-discovery": "^0.3.1",
     "tinkerhub-ssdp": "^0.2.2",
     "ws": "^3.3.2"
